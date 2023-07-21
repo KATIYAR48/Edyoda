@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "Name": "Mary Jane",
+      "DOB": "1990-03-15",
+      "Height": 175,
+      "City": "New York",
+      "State": "New York"
+    },
+    {
+      "Name": "Bill Clinton",
+      "DOB": "1985-09-10",
+      "Height": 162,
+      "City": "Los Angeles",
+      "State": "California"
+    },
+    {
+      "Name": "Dwayne Johnson",
+      "DOB": "1988-07-25",
+      "Height": 180,
+      "City": "Chicago",
+      "State": "Illinois"
+    },
+    {
+      "Name": "Bruce Bannon",
+      "DOB": "1992-12-05",
+      "Height": 168,
+      "City": "Houston",
+      "State": "Texas"
+    },
+    {
+      "Name": "Michael Jackson",
+      "DOB": "1995-06-20",
+      "Height": 170,
+      "City": "Miami",
+      "State": "Florida"
+    }
+  ]
+}
