@@ -1,0 +1,50 @@
+# Interview Questions for Python: Data Types, Operators, Conditional Statements, Looping Statements, Functions
+
+## Data Types:
+
+**Question 1:** What are the basic data types in Python?
+**Solution:** The basic data types in Python are int, float, str, bool, and NoneType.
+
+**Question 2:** How do you convert a string to an integer in Python?
+**Solution:** You can use the `int()` function to convert a string to an integer: `int("123")`.
+
+## Operators:
+
+**Question 3:** What is the difference between the `==` operator and the `is` operator in Python?
+**Solution:** The `==` operator compares the values of two objects, while the `is` operator checks if two objects refer to the same memory location.
+
+**Question 4:** How do you calculate the remainder of a division operation in Python?
+**Solution:** The remainder of a division operation can be calculated using the modulo operator `%`.
+
+## Conditional Statements:
+
+**Question 5:** What is the difference between `if`, `elif`, and `else` in Python?
+**Solution:** `if` is used to check a condition, `elif` stands for "else if" and is used for additional conditions, and `else` is used for the default case when no condition is true.
+
+**Question 6:** How can you write a nested `if` statement in Python?
+**Solution:** You can write a nested `if` statement by placing one `if` statement inside another.
+
+## Looping Statements:
+
+**Question 7:** Explain the difference between `for` loops and `while` loops.
+**Solution:** A `for` loop is used for iterating over a sequence (like a list or range), while a `while` loop is used for iterating as long as a certain condition is met.
+
+**Question 8:** How can you exit a loop prematurely in Python?
+**Solution:** You can use the `break` statement to exit a loop prematurely.
+
+## Functions:
+
+**Question 9:** What is a function in Python?
+**Solution:** A function is a block of reusable code that performs a specific task.
+
+**Question 10:** How do you define a function in Python?
+**Solution:** You can define a function using the `def` keyword followed by the function name and parameters.
+
+**Question 11:** Write a Python function to calculate the factorial of a number.
+**Solution:**
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
